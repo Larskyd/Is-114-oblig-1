@@ -1,0 +1,11 @@
+
+flag = rectangle(220,160,"solid","red") 
+white1 = rectangle(40,160,"solid","white") 
+white2 = rectangle(220,40,"solid","white") 
+blue1 = rectangle(20,160,"solid","blue") 
+blue2 = rectangle(220,20,"solid","blue")  
+flag1 = put-image(white1,80,80,flag) 
+flag2 = put-image(white2,110,80,flag1) 
+flag3 = put-image(blue1,80,80,flag2) 
+flag4 = put-image(blue2,110,80,flag3)  
+flag4
